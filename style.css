@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+	font-family: 'Arial', sans-serif;
+	line-height: 160%;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+    padding: 2rem;
+}
+
+div {
+    position: relative;
+    min-height: 150px;
+    margin: 2rem 0;
+    width: 600px;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+p.name {
+    font-weight: bold;
+}
+
+p.service {
+    position: absolute;
+    right: 1rem; bottom: 1rem;
+    font-size: 0.8rem;
+    color: grey;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.add {
+    color: blue;    
+    border-bottom: 1px dashed blue;    
+}
+
+a.del {
+    color: red;    
+    border-bottom: 1px solid red;
+}
+
+form.phone {
+    display: none;
+}
